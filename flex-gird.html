@@ -8,6 +8,7 @@
     <title>Document</title>
     <!-- stylesheet -->
     <style>
+        /* flex part */
         .user {
             background-color: coral;
             width: 250px;
@@ -23,11 +24,49 @@
             display: flex;
             flex-wrap: wrap;
         }
+
+        /* grid part */
+        .user-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
     </style>
 </head>
 
 <body>
     <section class="user-container">
+        <div class="user" id="user-1">
+            <h2>User box -1</h2>
+        </div>
+        <div class="user" id="user-2">
+            <h2>User box -2</h2>
+        </div>
+        <div class="user" id="user-3">
+            <h2>User box -3</h2>
+        </div>
+        <div class="user" id="user-4">
+            <h2>User box -4</h2>
+        </div>
+        <div class="user" id="user-5">
+            <h2>User box -5</h2>
+        </div>
+        <div class="user" id="user-6">
+            <h2>User box -6</h2>
+        </div>
+        <div class="user" id="user-7">
+            <h2>User box -7</h2>
+        </div>
+        <div class="user" id="user-8">
+            <h2>User box -8</h2>
+        </div>
+        <div class="user" id="user-9">
+            <h2>User box -9</h2>
+        </div>
+        <div class="user" id="user-10">
+            <h2>User box -10</h2>
+        </div>
+    </section>
+    <section class="user-grid">
         <div class="user" id="user-1">
             <h2>User box -1</h2>
         </div>
